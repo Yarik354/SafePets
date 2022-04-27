@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.hlogo{
+    color: #131313;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Inter';
+    padding-top: 30px;
+}
+
+
+.nava{
+    text-decoration: none;
+    color: #131313;
+    font-size: 20px;
+    font-family: 'Inter';
+    padding-left: 28px;
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav{
+    padding-top: 30px;
+}
+
+
+.rgb{
+    background-image: url(images/catdog.png), linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
+    border-radius: 24px;
+    margin-top: 32px;
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 50%;
+}
+
+.hrgb{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 54px;
+    padding-left: 59px;
+    padding-top: 77px;
+    color: #fff;
+}
+
+.rgbh{
+    max-width: 591px;
+}
+
+
+.rgbp{
+    max-width: 450px;
+    margin-top: 12px;
+}
+
+
+.prgb{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 59px;
+    padding-bottom: 24px;
+}
+
+
+.helpp{
+    width: 234px;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: #484399;
+    margin-left: 59px;
+    margin-bottom: 150px;
+    font-family: 'Inter';
+}
+
+
+.petitions{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    padding-top: 50px;
+}
+
+
+.subscribe{
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    width: 280px;
+    margin-bottom: 44px;
+}
+
+
+.hsubscribe{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 28px;
+    padding: 16px 16px;
+}
+
+
+.psubscribe{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+
+.sub{
+    background: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
+    border: 0px;
+    border-radius: 8px;
+    color: #fff;
+    width: 248px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 81px;
+    padding-right: 81px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+
+.petit{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.creat{
+    width: 100%;
+    background-color: #fff;
+    border: 3px solid rgba(66, 67, 147, 1);
+    border-radius: 10px;
+    color: rgba(66, 67, 147, 1);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+
+
+.stories{   
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+
+
+.simonimg{
+    padding-top: 32px;
+}
+
+
+.lapki{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+}
+
+
+.simonh1{
+    display: inline-block;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+    color: #131313;
+}
+
+
+.simonflex{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 80px;
+}
+
+.simontext{
+    padding-left: 24px;
+    padding-top: 32px;
+}
+
+
+.simonp{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #131313;
+    max-width: 280px;
+}
+
+
+.story{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.help{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    padding-top: 80px;
+}
+
+
+.cats{
+    width: 83px;
+    background-color: #FF862E;
+    border: 0px;
+    border-radius: 6px;
+    margin-top: 16px;
+}
+
+
+.catsp{
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.dogs{
+    width: 76px;
+    background-color: #8083FF;
+    border: 0px;
+    border-radius: 6px;
+    margin-top: 16px;
+}
+
+
+.catdog{
+    max-width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
