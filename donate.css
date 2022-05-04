@@ -9,6 +9,8 @@ body {
 }
 
 .container {
+    padding-top: 80px;
+    margin: auto;
     max-width: 1192px;
 }
 
@@ -105,6 +107,7 @@ body {
 }
 
 .further {
+    margin-left: 32px;
     width: 587px;
     height: 80px;
     background: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
@@ -117,4 +120,132 @@ body {
     color: #FFFFFF;
     font-size: 24px;
     font-weight: 600;
+}
+
+.helph {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    padding-top: 80px;
+    padding-bottom: 32px;
+}
+
+.help {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cats {
+    background-color: #FF862E;
+    border: 0px;
+    border-radius: 6px;
+    margin-top: 16px;
+    padding: 4px;
+    height: 30px;
+}
+
+.catsp {
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.dogs {
+    background-color: #8083FF;
+    border: 0px;
+    border-radius: 6px;
+    margin-top: 16px;
+    padding: 4px;
+    height: 30px;
+}
+
+.catdog {
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-lapki {
+    color: #131313;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 8px;
+}
+
+.homep {
+    width: 256px;
+    color: #555555;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.donate {
+    background: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
+    border: 0px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #131313;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 27px;
+    padding-top: 27px;
+}
+
+.right-block {
+    position: absolute;
+    top: 278px;
+    right: -60px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: #555555 2px solid;
+    height: 40px;
+    width: 40px;
+    background-image: url(/images/vector.png);
+    background-position: center;
+}
+
+.bottom-block {
+    padding-top: 33px;
+    padding-bottom: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orange {
+    width: 28px;
+    height: 8px;
+    left: 667px;
+    top: 741px;
+    background: #FF862E;
+    border: 1px;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.gray-block {
+    margin-left: 5px;
+    border: #eeeeee;
+    width: 8px;
+    height: 8px;
+    left: 700px;
+    top: 741px;
+    background: #EEEEEE;
+    border-radius: 100px;
 }
