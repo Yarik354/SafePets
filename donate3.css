@@ -62,7 +62,7 @@ body {
     height: 120px;
     left: 274px;
     top: 80px;
-    background: #EEEEEE;
+    background: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
 }
 
 .n3 {
@@ -74,7 +74,7 @@ body {
     height: 120px;
     left: 274px;
     top: 80px;
-    background: #EEEEEE;
+    background: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
 }
 
 .n4 {
@@ -155,104 +155,21 @@ form {
     font-weight: 600;
 }
 
-.helph {
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 40px;
-    color: #131313;
-    padding-top: 80px;
-    padding-bottom: 32px;
-}
-
-.help {
-    flex-wrap: wrap;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-}
-
-.cats {
-    background-color: #FF862E;
-    border: 0px;
-    border-radius: 6px;
-    margin-top: 16px;
-    padding: 4px;
-    height: 30px;
-}
-
-.catsp {
-    color: #fff;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.dogs {
-    background-color: #8083FF;
-    border: 0px;
-    border-radius: 6px;
-    margin-top: 16px;
-    padding: 4px;
-    height: 30px;
-}
-
-.catdog {
-    width: 175px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.home-lapki {
-    color: #131313;
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 24px;
-    padding-top: 8px;
-}
-
-.homep {
-    padding-top: 8px;
-    padding-bottom: 16px;
-    color: #555555;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-}
-
-.donate {
-    background: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
-    border: 0px;
-    border-radius: 8px;
-    color: #fff;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 100%;
-    text-align: center;
-}
-
 h1 {
-    color: #131313;
+    width: 366px;
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
     font-size: 45px;
-    text-align: center;
-    padding-bottom: 27px;
-    padding-top: 27px;
+    color: #131313;
+    padding-top: 26px;
 }
 
-.right-block {
-    position: absolute;
-    top: 278px;
-    right: -60px;
-    background-color: #fff;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-    border: #555555 2px solid;
-    height: 40px;
-    width: 40px;
-    background-image: url(/images/vector.png);
-    background-position: center;
+.h {
+    text-align: center;
+    padding-bottom: 26px;
+    padding-top: 26px;
 }
 
 .bottom-block {
@@ -285,14 +202,115 @@ h1 {
     border-radius: 100px;
 }
 
-.help-wrapper {
-    position: relative;
+.card {
+    max-width: 641px;
+    margin: auto;
+    margin-bottom: 80px;
 }
 
-@media (max-width: 1252px) {
-    .right-block {
-        display: none;
-    }
+.front-card {
+    z-index: 1;
+    position: absolute;
+    padding-left: 32px;
+    box-sizing: border-box;
+    width: 489px;
+    height: 312px;
+    border: 2px solid #B741FF;
+    background: #ffffff;
+    border-radius: 30px;
+}
+
+.back-card {
+    z-index: 0;
+    left: 174px;
+    position: relative;
+    padding-left: 32px;
+    box-sizing: border-box;
+    width: 489px;
+    height: 312px;
+    border: none;
+    background: #EEEEEE;
+    border-radius: 30px;
+}
+
+.numbers-card {
+    display: flex;
+    height: 32px;
+    margin-top: 182px;
+}
+
+.numbers-card-p {
+    width: 94px;
+    margin-right: 16px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+}
+
+.numbers-card-p1 {
+    width: 94px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+}
+
+.card-family {
+    margin-top: 24px;
+    display: flex;
+    width: 424px;
+}
+
+.family-p {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    background-color: #EEEEEE;
+    width: 203px;
+    height: 32px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+.month-p {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+    background-color: #EEEEEE;
+    width: 54px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+}
+
+.month-img {
+    display: inline-block;
+    font-size: 21px;
+}
+
+.month {
+    padding-left: 95px;
+}
+
+.back-input {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 17px;
+    background-color: #ffffff;
+    width: 72px;
+    height: 32px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+
+.back-div {
+    padding-top: 152px;
+    padding-bottom: 128px;
+    padding-left: 327px;
 }
 
 @media (max-width: 1192px) {
@@ -311,6 +329,15 @@ h1 {
     }
     .help1 img {
         width: 100%;
+    }
+}
+
+@media (max-width: 930px) {
+    .search {
+        width: 30%;
+    }
+    .further {
+        width: 50%;
     }
 }
 
@@ -334,21 +361,13 @@ h1 {
     }
 }
 
+@media (max-width: 700px) {
+    .card {
+        max-width: 95%;
+    }
+}
+
 @media (max-width: 476px) {
-    .help {
-        flex-direction: column;
-        align-items: center;
-    }
-    .home-lapki {
-        font-size: 20px;
-    }
-    .help1 {
-        width: 100%;
-        margin-bottom: 40px;
-    }
-    .help1 img {
-        width: 100%;
-    }
     h1 {
         font-size: 40px;
     }
@@ -372,6 +391,13 @@ h1 {
         height: 90px;
     }
     h1 {
+        width: 70%;
         font-size: 30px;
+    }
+}
+
+@media (max-width: 370px) {
+    h1 {
+        font-size: 26px;
     }
 }
