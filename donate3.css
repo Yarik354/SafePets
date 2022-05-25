@@ -205,14 +205,12 @@ h1 {
 .card {
     max-width: 641px;
     margin: auto;
-    margin-bottom: 80px;
+    padding-bottom: 170px;
+    position: relative;
 }
 
 .front-card {
-    z-index: 1;
-    position: absolute;
     padding-left: 32px;
-    box-sizing: border-box;
     width: 489px;
     height: 312px;
     border: 2px solid #B741FF;
@@ -221,9 +219,10 @@ h1 {
 }
 
 .back-card {
-    z-index: 0;
+    z-index: -1;
     left: 174px;
-    position: relative;
+    position: absolute;
+    top: 20px;
     padding-left: 32px;
     box-sizing: border-box;
     width: 489px;
@@ -234,30 +233,26 @@ h1 {
 }
 
 .numbers-card {
+    justify-content: space-between;
     display: flex;
-    height: 32px;
     margin-top: 182px;
+    width: 95%;
 }
 
 .numbers-card-p {
-    width: 94px;
-    margin-right: 16px;
+    padding: 6px;
+    width: 22%;
     background-color: #EEEEEE;
     border: none;
     border-radius: 5px;
-}
-
-.numbers-card-p1 {
-    width: 94px;
-    background-color: #EEEEEE;
-    border: none;
-    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .card-family {
     margin-top: 24px;
     display: flex;
-    width: 424px;
+    width: 100%;
 }
 
 .family-p {
@@ -271,6 +266,7 @@ h1 {
     font-family: sans-serif;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .month-p {
@@ -283,6 +279,7 @@ h1 {
     height: 32px;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .month-img {
@@ -361,15 +358,72 @@ h1 {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 745px) {
     .card {
         max-width: 95%;
+    }
+    .front-card {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .back-card {
+        left: 50%;
+        top: 100px;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+    .back-div {
+        padding: 0;
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
+}
+
+@media (max-width: 594px) {
+    .numbers-card {
+        flex-wrap: wrap;
+    }
+    .card-family {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .numbers-card {
+        margin-top: 100px;
+    }
+    .numbers-card-p {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    .month {
+        padding-left: 0px;
+    }
+    .family-p {
+        margin-right: 92px;
+    }
+}
+
+@media (max-width: 560px) {
+    .month {
+        padding-top: 20px;
+        padding-left: 0px;
     }
 }
 
 @media (max-width: 476px) {
     h1 {
         font-size: 40px;
+    }
+    .numbers-card-p {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    .month {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+    .family-p {
+        margin-right: 92px;
     }
 }
 
@@ -393,6 +447,9 @@ h1 {
     h1 {
         width: 70%;
         font-size: 30px;
+    }
+    .family-p {
+        margin-right: 50px;
     }
 }
 

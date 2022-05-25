@@ -211,6 +211,8 @@ h1 {
     height: 116px;
     background: #EAEAEA;
     border-radius: 20px;
+    font-size: 100px;
+    text-align: center;
 }
 
 .static1 {
@@ -219,12 +221,8 @@ h1 {
     height: 116px;
     background: #EAEAEA;
     border-radius: 20px;
-}
-
-@media (max-width: 1252px) {
-    .right-block {
-        display: none;
-    }
+    font-size: 100px;
+    text-align: center;
 }
 
 @media (max-width: 1192px) {
@@ -261,10 +259,12 @@ h1 {
         font-size: 18px;
     }
     .static {
+        font-size: 80px;
         width: 80%;
         height: 100px;
     }
     .static1 {
+        font-size: 80px;
         width: 80%;
         height: 100px;
     }
@@ -276,6 +276,9 @@ h1 {
     }
     .further-p {
         font-size: 12px;
+    }
+    .static {
+        margin-right: 20px;
     }
 }
 
@@ -318,5 +321,11 @@ h1 {
     }
     .further-p {
         font-size: 10px;
+    }
+    .static {
+        font-size: 70px;
+    }
+    .static1 {
+        font-size: 70px;
     }
 }
