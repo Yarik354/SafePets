@@ -141,6 +141,8 @@ nav{
 
 
 .petit{
+    flex-wrap: wrap;
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -213,6 +215,8 @@ nav{
 
 
 .story{
+    flex-wrap: wrap;
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -224,13 +228,19 @@ nav{
     font-size: 40px;
     color: #131313;
     padding-top: 80px;
-    padding-bottom: 32px;
 }
 
 
 .help{
+    flex-wrap: wrap;
+    position: relative;
     display: flex;
     justify-content: space-between;
+}
+
+
+.helpimg{
+    padding-top: 32px;
 }
 
 
@@ -352,6 +362,8 @@ nav{
 
 
 .maintab{
+    flex-wrap: wrap;
+    position: relative;
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
@@ -360,6 +372,8 @@ nav{
 
 footer{
     background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -368,7 +382,91 @@ footer{
     font-family: 'Inter';
     font-weight: 400;
     font-size: 14px;
-    width: 548px;
+    max-width: 548px;
     padding-top: 32px;
     padding-bottom: 100px;
+}
+
+
+@media (max-width: 1400px){
+    .donate-lapki{
+        padding-right: 30px;
+    }
+
+    .user{
+        padding-right: 30px;
+    }
+
+    .rgb{
+        background-position-x: 90%;
+        background-position-y: 50%;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .rgbh{
+        max-width: 400px;
+    }
+
+    .hrgb{
+        font-size: 40px;
+    }
+
+    .rgbp{
+        max-width: 350px;
+    }
+
+    .rgb{
+        background-position-x: 95%;
+        background-position-y: 70%;
+    }
+
+    .maintab{
+        margin: auto;
+        justify-content: center;
+    }
+
+    .tab{
+        margin: auto;
+        max-width: 360px;
+    }
+
+    .helph{
+        margin: auto;
+        max-width: 400px;
+    }
+
+    .hpetitions{
+        margin: auto;
+        max-width: 150px;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 991px){
+    .help{
+        justify-content: space-around;
+    }
+
+    .petit{
+        justify-content: space-around;
+    }
+}
+
+
+@media (max-width: 767px){
+    .simonimg{
+        width: 224px;
+    }
+}
+
+
+@media (max-width: 575px){
+    .simonflex{
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
 }
