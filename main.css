@@ -231,6 +231,13 @@ nav{
 }
 
 
+.ahelp{
+    color: #484399;
+    font-family: 'Inter';
+    text-decoration: none;
+}
+
+
 .help{
     flex-wrap: wrap;
     position: relative;
@@ -311,6 +318,15 @@ nav{
 }
 
 
+.adonate{
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px; 
+    text-decoration: none;
+}
+
+
 .tab{
     font-family: 'Inter';
     font-weight: 700;
@@ -376,6 +392,16 @@ footer{
     flex-direction: column;
 }
 
+.next{
+    color: rgba(66, 67, 147, 1);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+}
+
 
 .foot{
     color: #6B6B6B;
@@ -387,6 +413,10 @@ footer{
     padding-bottom: 100px;
 }
 
+
+.sub:focus{
+    background: #6B6B6B;
+}
 
 @media (max-width: 1400px){
     .donate-lapki{
@@ -456,9 +486,17 @@ footer{
 }
 
 
-@media (max-width: 767px){
+@media (max-width: 768px){
     .simonimg{
         width: 224px;
+    }
+
+    .hrgb{
+        font-size: 30px;
+    }
+
+    .rgb{
+        background-image: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
     }
 }
 
