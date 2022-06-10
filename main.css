@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+body{
+    min-height: 100vh;
+}
+
+.hlogo{
+    color: #131313;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Inter';
+    padding-top: 30px;
+}
+
+
+.nava{
+    text-decoration: none;
+    color: #131313;
+    font-size: 20px;
+    font-family: 'Inter';
+    padding-left: 28px;
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav{
+    padding-top: 30px;
+}
+
+
+.rgb{
+    background-image: url(images/catdog.png), linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
+    border-radius: 24px;
+    margin-top: 32px;
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 50%;
+}
+
+.hrgb{
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 54px;
+    padding-left: 59px;
+    padding-top: 77px;
+    color: #fff;
+}
+
+.rgbh{
+    max-width: 591px;
+}
+
+
+.rgbp{
+    max-width: 450px;
+    margin-top: 12px;
+}
+
+
+.prgb{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 59px;
+    padding-bottom: 24px;
+}
+
+
+.helpp{
+    width: 234px;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: #484399;
+    margin-left: 59px;
+    margin-bottom: 150px;
+    font-family: 'Inter';
+}
+
+
+.petitions{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    padding-top: 50px;
+}
+
+
+.subscribe{
+    background-color: #F8F8F8;
+    border-radius: 20px;
+    width: 280px;
+    margin-bottom: 44px;
+}
+
+
+.hsubscribe{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 28px;
+    padding: 16px 16px;
+}
+
+
+.psubscribe{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+
+.sub{
+    background: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
+    border: 0px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 81px;
+    padding-right: 81px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+
+.petit{
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.creat{
+    width: 100%;
+    background-color: #fff;
+    border: 3px solid rgba(66, 67, 147, 1);
+    border-radius: 10px;
+    color: rgba(66, 67, 147, 1);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+
+
+.stories{   
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+}
+
+
+.simonimg{
+    padding-top: 32px;
+}
+
+
+.lapki{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+}
+
+
+.simonh1{
+    display: inline-block;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+    color: #131313;
+}
+
+
+.simonflex{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 80px;
+}
+
+.simontext{
+    padding-left: 24px;
+    padding-top: 32px;
+}
+
+
+.simonp{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    color: #131313;
+    max-width: 280px;
+}
+
+
+.story{
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.helph{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    padding-top: 80px;
+}
+
+
+.ahelp{
+    color: #484399;
+    font-family: 'Inter';
+    text-decoration: none;
+}
+
+
+.help{
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.helpimg{
+    padding-top: 32px;
+}
+
+
+.cats{
+    background-color: #FF862E;
+    border: 0px;
+    border-radius: 6px;
+    margin-top: 16px;
+    padding: 4px;
+    height: 30px;
+}
+
+
+.catsp{
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.dogs{
+    background-color: #8083FF;
+    border: 0px;
+    border-radius: 6px;
+    margin-top: 16px;
+    padding: 4px;
+    height: 30px;
+}
+
+
+.catdog{
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.home-lapki{
+    color: #131313;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 8px;
+}
+
+
+.homep{
+    width: 256px;
+    color: #555555;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.donate{
+    background: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
+    border: 0px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 81px;
+    padding-right: 81px;
+}
+
+
+.adonate{
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px; 
+    text-decoration: none;
+}
+
+
+.tab{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    padding-top: 127px;
+    padding-bottom: 26px;
+}
+
+
+.lider{
+    max-width: 584px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F8F8;
+    border: 0px;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.user{
+    color: #131313;  
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 74px;
+}
+
+
+.donate-lapki{   
+    font-family: 'Roboto';
+    color: #131313;
+    font-weight: 400;
+    font-size: 18px;
+    padding-right: 74px;
+}
+
+
+.amount{
+    color: #FF862E;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+.maintab{
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+
+footer{
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+}
+
+.next{
+    color: rgba(66, 67, 147, 1);
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+.foot{
+    color: #6B6B6B;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 548px;
+    padding-top: 32px;
+    padding-bottom: 100px;
+}
+
+
+.sub:focus{
+    background: #6B6B6B;
+}
+
+@media (max-width: 1400px){
+    .donate-lapki{
+        padding-right: 30px;
+    }
+
+    .user{
+        padding-right: 30px;
+    }
+
+    .rgb{
+        background-position-x: 90%;
+        background-position-y: 50%;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .rgbh{
+        max-width: 400px;
+    }
+
+    .hrgb{
+        font-size: 40px;
+    }
+
+    .rgbp{
+        max-width: 350px;
+    }
+
+    .rgb{
+        background-position-x: 95%;
+        background-position-y: 70%;
+    }
+
+    .maintab{
+        margin: auto;
+        justify-content: center;
+    }
+
+    .tab{
+        margin: auto;
+        max-width: 360px;
+    }
+
+    .helph{
+        margin: auto;
+        max-width: 400px;
+    }
+
+    .hpetitions{
+        margin: auto;
+        max-width: 150px;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 991px){
+    .help{
+        justify-content: space-around;
+    }
+
+    .petit{
+        justify-content: space-around;
+    }
+}
+
+
+@media (max-width: 768px){
+    .simonimg{
+        width: 224px;
+    }
+
+    .hrgb{
+        font-size: 30px;
+    }
+
+    .rgb{
+        background-image: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
+    }
+}
+
+
+@media (max-width: 575px){
+    .simonflex{
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+
+    .rgbh{
+        max-width: 350px;
+    }
+
+
+    .rgbp{
+        max-width: 300px;
+    }
+
+
+    .container{
+        max-width: 80%;
+        margin-left: 30px;
+    }
+
+    .helpp{
+        margin-left: 30px;
+    }
+
+    .hrgb{
+        padding-left: 30px;
+    }
+
+
+    .prgb{
+        padding-left: 30px;
+    }
+}

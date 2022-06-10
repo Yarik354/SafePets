@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    max-width: 852px;
+    margin: auto;
+}
+
+.namepetishen{
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight:500;
+}
+
+.button{
+    display: block;
+    color: #fff;
+    background: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
+    width: 748px;
+    height: 80px;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-family:Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.petishen1inpit{
+    display: block;
+    width: 748px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    border: 0px;
+    padding-left: 29px;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+input::placeholder{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.container:nth-child(9){
+    margin-top: 0px;
+}
+
+.circleactiv{
+    display:flex;
+    Width:120px;
+    height: 120px;
+    border-radius: 100px;
+    background: linear-gradient(107.02deg, #424393 0%, #B741FF 100%);
+    vertical-align: middle;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    font-size: 43px;
+    font-weight: bold;
+    
+}
+
+.line{
+    display:inline-block;
+    width: 60px;
+    height: 0px;
+    border: 4px rgba(85, 85, 85, 1) solid;
+    border-radius: 10px;
+    margin-left: 32px;
+    margin-right: 32px;
+    vertical-align: middle;
+}
+
+.circle{
+    display: flex;
+    width:120px;
+    height: 120px;
+    border-radius: 100px;
+    background-color:rgba(238, 238, 238, 1);
+    vertical-align: middle;
+    justify-content:center;
+    align-items: center;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.flex-parent{
+    display: flex;
+    max-width: 852px;
+    margin: auto;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.pole{
+    display: block;
+    width: 748px;
+    height: 240px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+    border: 0px;
+    padding-top:28px;
+    padding-left:32px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h1{
+    margin-bottom: 23px;
+}
+
+.namepetishen2{
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight:500;
+}
+
+.namepetishen3{
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight:500;    
+}
+
+textarea::placeholder{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.first-n1 {
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.second-n2 {
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    max-width: 748px;
+    margin: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 1192px) {
+    .container {
+        max-width: 95%;
+    }
+
+    .petishen1inpit,.button,.pole{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 881px) {
+    .flex-parent {
+        justify-content: space-evenly;
+        max-width: 364px;
+    }
+    .line2 {
+        display: none;
+    }
+    .first-n1 {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 476px) {
+    .namepetishen,.namepetishen2,.namepetishen3 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    .circle,.circleactiv {
+        width: 90px;
+        height: 90px;
+    }
+
+    .namepetishen,.namepetishen2,.namepetishen3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:896px) {
+    .line2{
+        display: none;
+    }
+}
